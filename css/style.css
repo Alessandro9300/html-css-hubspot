@@ -149,6 +149,11 @@ z-index: 100;
   color: #64c9e8;
 }
 
+#white-button{
+  border: solid 1px #ff7a59;
+  background-color: white;
+  color: #ff7a59;
 
+}
 
 /* fine stycky head */
