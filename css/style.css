@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #33475b;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container{
+  /* DEBUG:  */
+  margin: auto;
+  height: 3000px;
+  border: solid;
+  /* DEBUG:  */
+  width: 40%;
+  position: relative;
+  top: 84px;
+
+}
+
+.img-all{
+ width: 130px;
+ height: auto;
+}
+
+button{
+height: 50px;
+width: 150px;
+background-color: #ff7a59;
+color: white;
+border-radius: 5px;
+border: none;
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+  color: #33475b;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.text-cent{
+  text-align: center;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+.little-p{
+
+}
+
+.medium-p{
+
+
+}
+
+.large-p{
+
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.styck::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.styck{
+background-color: #f5f8fa;
+height: 85px;
+border-bottom: 1px solid #cbd6e2;
+position: fixed;
+width: 100vw;
+left: 0;
+right: 0;
+padding: 0 30vw;
+z-index: 100;
+
+}
+
+.styck-box{
+  /* width: 130px; */
+  height: 100%;
+  float: left;
+  padding: 10px 10px 0 0;
+
+}
+
+.styck-h{
+  height: 100%;
+  padding: 20px 0;
+
+}
+
+.styck-dx{
+  float: right;
+
+  /* DEBUG:  */
+  width: 37.5%;
+
+}
+
+.styck-sx{
+  float: left;
+  width: 30%;
+  position: relative;
+  right: 5px;
+
+
+}
+
+.styck-box span{
+  margin: 10px;
+}
+
+.box-sx{
+  border-right: solid 1px #7c98b6;
+}
+
+.styck-cerca{
+  font-size: 18px;
+  margin-right: 20px;
+  color: #64c9e8;
+}
+
+
+
+/* fine stycky head */
