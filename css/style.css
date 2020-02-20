@@ -41,7 +41,7 @@ margin-right: 10px;
 
 a{
   text-decoration: none;
-  display: block;
+  display:  inline-block;
   color: #33475b;
   font-size: 15px;
   font-weight: bold;
@@ -50,6 +50,12 @@ a{
 
 .text-cent{
   text-align: center;
+}
+
+.clear::after{
+  content:"";
+  display: table;
+  clear: both;
 }
 
 h1{
@@ -85,11 +91,7 @@ h4{
 
 /* ----------------------------------------------------------------------------------------------------------- */
 
-.styck::after{
-  content:"";
-  display: table;
-  clear: both;
-}
+
 
 .styck{
 background-color: #f5f8fa;
@@ -157,3 +159,41 @@ z-index: 100;
 }
 
 /* fine stycky head */
+
+header{
+  height: 85px;
+  box-shadow: 0px 4px 45px #e97a7a4f;
+  position: relative;
+  top: 84px;
+  width: 100vw;
+  padding: 0 30vw;
+}
+
+.logo-img{
+  float: left;
+  margin-right: 200px;
+  height: 100%;
+
+}
+
+.logo-img img{
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  max-height: 35%;
+  height: 100%;
+}
+
+.nav{
+  float: right;
+}
+.nav ul li{
+  display: inline-block;
+  line-height: 5.45;
+  margin: 0 15px;
+
+}
+.nav a{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
