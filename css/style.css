@@ -30,7 +30,10 @@ body{
 .margin{
  margin-top: 100px;
 
+}
 
+.padding{
+  padding: 25px;
 }
 
 .shadow-hover:hover{
@@ -274,6 +277,13 @@ header{
 }
 
 /* fine jumbo */
+
+
+.cont-cubo p{
+  width: 800px;
+  margin: auto;
+}
+
 
 /* inizio libro */
 
