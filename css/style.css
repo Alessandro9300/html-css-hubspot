@@ -9,7 +9,7 @@ body{
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.container{
+.main{
   /* DEBUG:  */
 
   height: 3000px;
@@ -19,7 +19,7 @@ body{
 }
 
 .width{
-  width: 40%;
+  width: 60%;
   margin: auto;
   height: 100%;
 /*
@@ -58,7 +58,7 @@ text-align: center;
 margin-right: 10px;
 }
 
-.container li::before{
+.main li::before{
   content:"";
   background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
   display: inline-block;
@@ -147,10 +147,10 @@ background-color: #f5f8fa;
 height: 85px;
 border-bottom: 1px solid #cbd6e2;
 position: fixed;
-width: 100vw;
+width: 100%;
 left: 0;
 right: 0;
-padding: 0 30vw;
+padding: 0 20%;
 z-index: 100;
 
 }
@@ -171,16 +171,14 @@ z-index: 100;
 .styck-dx{
   float: right;
 
-  /* DEBUG:  */
-  width: 37.5%;
+
 
 }
 
 .styck-sx{
   float: left;
-  width: 30%;
-  position: relative;
-  right: 5px;
+
+
 
 
 }
@@ -213,14 +211,13 @@ header{
   box-shadow: 0px -2px 10px #5d080836;
   position: relative;
   top: 84px;
-  width: 100vw;
-  padding: 0 30vw;
+  width: 100%;
+  padding: 0 20%;
   z-index: 70;
 }
 
 .logo-img{
   float: left;
-  margin-right: 200px;
   height: 100%;
 
 }
@@ -251,15 +248,17 @@ header{
 
 .cont-jumbo{
   background-image: url(../img/jumbotron.png);
-  height: 695px;
+  height: 660px;
   background-repeat: no-repeat;
   background-position: right;
-  background: cover;
+  background-size: cover;
+
 }
 
 .jumbo-text{
-  margin-top: 105px;
+
   width: 430px;
+  padding-top: 80px;
 
 
 }
@@ -334,3 +333,5 @@ margin-top: 20px;
 #margin-serv{
   margin: 0% 4.5% 0 4.5%;
 }
+
+#img-correction{width: 159px;}
