@@ -136,6 +136,11 @@ h5{
 }
 
 .large-p{
+  font-size: 23px;
+  line-height: 1.65;
+  font-weight: lighter;
+  margin-bottom: 20px;
+
 
 }
 
@@ -361,3 +366,78 @@ margin-top: 20px;
 }
 
 #img-correction{width: 159px;}
+
+
+/* awards */
+
+.cont-awards{
+background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+color: white;
+padding: 100px 0;
+margin: 80px 0;
+}
+
+.text-width{
+  width: 800px;
+  margin: auto;
+
+}
+
+.cont-box-awards1 .box-awards{
+  float: left;
+  width: 25%;
+  border-right: solid 2px white;
+  padding: 25px;
+  border-bottom: 2px solid white;
+
+}
+
+.cont-box-awards2 .box-awards{
+  float: left;
+  width: 25%;
+  border-right: solid 2px white;
+  padding: 25px;
+}
+
+.cont-box-awards1 .box-awards:last-child{
+  border-right: none;
+
+}
+
+.cont-box-awards2 .box-awards:last-child{
+  border-right: none;
+
+}
+
+.img-awards{
+  margin-bottom: 8px;
+}
+
+/* fine costumers */
+
+.costumers-cont p{
+  width: 328px;
+
+}
+
+.costumers-sx{
+  float: left;
+
+
+}
+
+.costumers-dx{
+  float: right;
+
+
+}
+
+.image-sponsor{
+  padding: 35px;
+  float: left;
+}
+
+.image-sponsor img{
+  height: 100%;
+  width: 110px;
+}
