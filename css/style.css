@@ -9,10 +9,10 @@ body{
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.main{
+main{
   /* DEBUG:  */
 
-  height: 3000px;
+
   position: relative;
   top: 84px;
 
@@ -61,7 +61,7 @@ text-align: center;
 
 }
 
-.main li::before{
+main li::before{
   content:"";
   background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
   display: inline-block;
@@ -440,4 +440,108 @@ margin: 80px 0;
 .image-sponsor img{
   height: 100%;
   width: 110px;
+}
+
+/* fine Costumers */
+
+.text-size {
+  width: 500px;
+  float: left;
+}
+
+.text-size button{
+  margin-bottom: 20px;
+}
+
+.img-growing{
+  padding-right: 50px;
+  float: right;
+}
+
+.img-growing img{
+  height: 500px;
+  width: 100%;
+
+}
+
+/* fine growing */
+
+footer{
+  background-color: #33475b;
+  color: white;
+  padding-top: 100px;
+  margin-top: 200px;
+}
+
+footer li{
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+footer a{
+  color: #cbd6e2;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+footer .link-utili ul{
+  float: left;
+  margin-right: 15%;
+}
+#lastul{
+  margin-right: 0;
+}
+
+#bluebutton{
+  background-color: #fff;
+  color: #33475b;
+  width: 210px;
+  position: relative;
+  left: calc(100% - 230px);
+}
+
+.link-utili{
+  margin-bottom: 50px;
+
+}
+
+.lingue li{
+  float: left;
+  margin: 30px;
+}
+
+.lingue ul{
+  width: 53%;
+  margin: auto;
+}
+
+.style-a{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.lingue{
+  border-bottom: 1px #cbd6e2 solid;
+}
+
+.link-finali{
+  padding: 30px 0;
+}
+
+.link-left{
+  float: left;
+}
+
+.link-right{
+  float: right;
+}
+
+.link-right a{
+  margin-left: 45px;
+
+}
+
+.link-finali img{
+  margin-bottom: 10px;
 }
