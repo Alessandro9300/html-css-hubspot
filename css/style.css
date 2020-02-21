@@ -22,14 +22,27 @@ body{
   width: 40%;
   margin: auto;
   height: 100%;
-
+/*
 /* DEBUG:  */
-border: solid;
+/* border: solid; */
+}
+
+.margin{
+ margin-top: 100px;
+
+
+}
+
+.shadow-hover:hover{
+  transform: scale(1.014);
+  box-shadow: 0px 0px 100px 16px rgba(1, 1, 1, 0.12);
+
 }
 
 .img-all{
- width: 130px;
+ width: 200px;
  height: auto;
+
 }
 
 button{
@@ -44,6 +57,17 @@ font-weight: bold;
 text-align: center;
 margin-right: 10px;
 }
+
+li::before{
+  content:"";
+  background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+
+}
+
 
 a{
   text-decoration: none;
@@ -65,11 +89,16 @@ a{
 }
 
 h1{
+  line-height: 1.4;
+  font-size: 45px;
+  margin-bottom: 13px;
 
 }
 
 h2{
-
+  line-height: 1.4;
+  font-size: 35px;
+  margin-bottom: 18px;
 }
 
 h3{
@@ -77,15 +106,29 @@ h3{
 }
 
 h4{
+line-height: 1.4;
+font-size: 24px;
+margin-bottom: 18px;
+}
+
+h5{
+  line-height: 1.4;
+  font-size: 14px;
+  margin-bottom: 18px;
 
 }
 
 .little-p{
-
+  font-size: 14px;
+  line-height: 1.65;
+  margin-bottom: 18px;
 }
 
 .medium-p{
-
+  font-size: 18px;
+  line-height: 1.65;
+  font-weight: lighter;
+  margin-bottom: 20px;
 
 }
 
@@ -212,6 +255,82 @@ header{
   background-repeat: no-repeat;
   background-position: right;
   background: cover;
-  padding-top: 100px;
+}
 
+.jumbo-text{
+  margin-top: 105px;
+  width: 430px;
+
+
+}
+.jumbo-but{
+  padding-right: 180px;
+
+}
+
+.jumbo-but button{
+  width: 215px;
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+/* fine jumbo */
+
+/* inizio libro */
+
+.book-left img{
+  display: block;
+  position:relative;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+.book-left button{
+position:relative;
+left: 50%;
+transform: translate(-50%, -0%);
+margin-top: 20px;
+
+}
+
+.book-left{
+  width: 250px;
+  float: left;
+}
+
+.book-right{
+  margin-left: 50px;
+  float: left;
+  width: 600px;
+  padding-top: 10px;
+}
+
+.book-right li{
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+/* fine libro */
+
+
+.services{
+  width: 30%;
+  float: left;
+}
+
+.services li{
+  display: block;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.services ul{
+  margin-bottom: 30px;
+
+}
+
+#margin-serv{
+  margin: 0% 4.5% 0 4.5%;
 }
