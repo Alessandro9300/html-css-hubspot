@@ -58,7 +58,7 @@ text-align: center;
 margin-right: 10px;
 }
 
-li::before{
+.container li::before{
   content:"";
   background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
   display: inline-block;
